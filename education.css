@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(254, 117, 144);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:fixed;
+}
+
+.name{
+    width: 40%;
+}
+
+.nav-page {
+    display: flex;
+    cursor: pointer;
+
+}
+
+body{
+    background-image:url("background5.png");
+    background-size: cover;
+   
+}
+
+.main{
+   padding-top: 40px;
+   padding-left: 50px;
+   margin-top: 0px;
+   font-size: 20px;
+   font-family: Arial;
+   color: rgb(12, 3, 3);
+   display: flex;
+  
+}
+.graduation{
+
+    align-items: center;
+    margin-top: 50px;
+    height: 250px;
+    width: 800px;
+    background-color: rgb(244, 208, 253);
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(82, 35, 126);
+}
+.diploma{
+    
+    align-items: center;
+    margin-top: 50px;
+    height: 250px;
+    width: 800px;
+    background-color: rgb(244, 208, 253);
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(82, 35, 126);
+}
+.ssc{
+    
+    align-items: center;
+    margin-top: 50px;
+    height: 250px;
+    width: 800px;
+    background-color: rgb(244, 208, 253);
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(82, 35, 126);
+}
+
+.certification {
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 50px;
+    height: 850px;
+    width: 500px;
+    background-color: rgb(244, 208, 253);
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(82, 35, 126);
+}
+
+.graduation p {
+    padding-bottom: 15px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.graduation ul li {
+    margin-top: 10px;
+}
+
+.diploma p{
+    padding-bottom: 15px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.diploma ul li {
+    margin-top: 10px;
+}
+
+.ssc p{   
+    padding-bottom: 15px; 
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ssc ul li {
+    margin-top: 10px;
+}
+
+.certification p{  
+    padding-bottom: 15px;  
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.certification ul li {
+    margin-top: 20px;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(254, 117, 144);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:static;
+}
+
+.name{
+    width: 40%;
+}
+
+.nav-page {
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+body{
+    background-image:url("backgroung8.jpg");
+    background-position:revert;
+    background-repeat: no-repeat;
+
+}
+
+.main{
+   padding-left: 30px;
+   margin-top: 20px;
+   font-size: 25px;
+   font-family: Arial;
+   display: flex;
+}
+.social-1{
+    align-items: center;
+    margin-top: 0px;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(103, 108, 106);
+    border-radius: 10px;
+}
+
+.social-2{
+    margin-left: 30px;
+    align-items: center;
+    margin-top: 0px;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(103, 108, 106);
+    border-radius: 10px;
+    background-image: url(sub-background1.jpg);
+}

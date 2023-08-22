@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(254, 117, 144);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:static;
+}
+
+.name{
+    width: 40%;
+}
+
+.nav-page {
+    display: flex;
+    cursor: pointer;
+
+}
+body{
+    background-image:url("background2.jpg");
+    background-size: cover;
+}
+
+.bio{
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:'Lucida Sans';
+    display: flex;
+ }
+ .about-1{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 600px;
+    width: 400px;
+    background-color: rgb(187, 90, 146);
+    border-radius: 10px;
+    font-weight: 700;
+ }
+
+ .form-text{
+    font-size: 10px;
+ }
+
+ form{
+    margin-left: 25px;
+    padding: 20px;
+ }
+
+ .mb-3{
+    padding: 20px;
+ }

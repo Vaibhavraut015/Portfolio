@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(254, 117, 144);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:fixed;
+}
+
+.name{
+    width: 40%;
+}
+
+.nav-page {
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+body{
+    background-image:url("background7.jpg");
+    background-position: revert;
+}
+
+.main{
+   padding-left: 0px;
+   font-size: 25px;
+   font-family:'Gill Sans';
+}
+.skills-list{
+    padding-top: 80px;
+    color: white;
+    align-items: center;
+    margin-top: 0px;
+    height: 670px;
+    width: 22%;
+    background-color: rgb(83, 82, 99);
+    
+}
+
+.skills-list ul  li {
+    padding-top: 20px;
+}
+
+
